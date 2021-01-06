@@ -84,7 +84,8 @@ h2 {
   text-align: center;
   color: white;
   font-size: var(--fontsize-titulo);
-  margin-top: 3rem;
+  margin: 2rem 0;
+  margin-bottom: 1.5rem;
   animation: productos__tituloCatalogo 1.5s;
   animation-play-state: var(--stop);
 }
@@ -117,6 +118,7 @@ h2 {
   .productos__imagenes {
     grid-template-columns: repeat(4, 1fr);
     margin: 5rem;
+    margin-top: 0;
   }
 }
 
